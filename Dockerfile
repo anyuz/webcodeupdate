@@ -9,3 +9,4 @@ RUN pip install --no-deps pandas==0.23.0
 
 COPY . /home/project/dash_app
 
+CMD [ "python", "/home/project/dash_app/webdash.py" ]
